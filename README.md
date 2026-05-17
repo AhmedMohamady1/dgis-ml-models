@@ -106,4 +106,4 @@ Images are tracked via **Git LFS** (see `.gitattributes`). Labels (`.txt` files)
 
 ## Part of DGIS
 
-This repo is a component of the larger DGIS system. See the [main repo](https://github.com/AhmedMohamady1/drone-geographical-information-system) for full architecture.
+This repo is a component of the larger DGIS system. See the [main repo](https://github.com/AhmedMohamady1/DGIS) for full architecture.
