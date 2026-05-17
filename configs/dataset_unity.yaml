@@ -1,0 +1,81 @@
+# DGIS Unity Simulation Dataset Config
+# Used for training the simulation YOLO model
+
+path: ../dataset_unity       # root dataset directory (relative to this file)
+train: images/train
+val: images/val
+test: images/test
+
+nc: 72
+0 : Beaver
+1 : BrichTree
+2 : Lynx
+3 : Marten
+4 : Squirrel
+5 : Warbler
+6 : Woodpecker
+7 : AbandonedCar
+8 : Bicycle
+9 : CalicoCat
+10 : Coyote
+11 : Crow
+12 : FeralDog
+13 : Pigeon
+14 : Rat
+15 : Skeleton
+16 : Agave
+17 : DesertBighornSheep
+18 : Tortoise
+19 : DesertWillow
+20 : DorcasGazelle
+21 : Pelican
+22 : RattleSnake
+23 : SeaBird
+24 : AlpineMarmot
+25 : Elk
+26 : GoldenEagle
+27 : GrizzlyBear
+28 : Heather
+29 : MountainLion
+30 : Bison
+31 : Black-footedFerret
+32 : Hyena
+33 : Lion
+34 : TurtleOrnateBox
+35 : Pipit
+36 : Elephant
+37 : Quail
+38 : Zebra
+39 : BigSnake
+40 : CacaoTree
+41 : Capybara
+42 : Gorilla
+43 : GreenAnaconda
+44 : GreenIguana
+45 : Leopard
+46 : Okapi
+47 : Pangolin
+48 : PygmyChimpanzee
+49 : Sloth
+50 : AloeVeraPlant
+51 : DesertScorpion
+52 : DromedaryCamel
+53 : FennecFox
+54 : Gecko
+55 : HornedLizard
+56 : Jerboa
+57 : SalviaPlant
+58 : AmericanBlackBear
+59 : Hickory
+60 : Maple
+61 : Raccoon
+62 : RedFox
+63 : White-tailedDeer
+64 : WoodFrog
+65 : Cypress
+66 : Cactus
+67 : PricklyPearCactus
+68 : FlowerGazania
+69 : FlowerEmpodium
+70 : Conifer
+71 : PineTree

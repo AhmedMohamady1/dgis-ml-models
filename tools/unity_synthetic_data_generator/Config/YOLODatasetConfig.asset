@@ -1,0 +1,402 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 716a29df10344d34da4f84422506e609, type: 3}
+  m_Name: YOLODatasetConfig
+  m_EditorClassIdentifier: Assembly-CSharp::YOLOClassConfig
+  classes:
+  - className: Beaver
+    classId: 0
+    prefabs:
+    - {fileID: 4814140183114437194, guid: 6f86b7f94359ec042bf4a302e73e9a46, type: 3}
+    modelScale: 1
+  - className: BrichTree
+    classId: 1
+    prefabs:
+    - {fileID: -7096806528661939046, guid: f908fc6e8a046294e8fea34782c75aeb, type: 3}
+    modelScale: 1
+  - className: Lynx
+    classId: 2
+    prefabs:
+    - {fileID: -7096806528661939046, guid: 8c23b3cedf8d75245a66f9a4f45263a8, type: 3}
+    modelScale: 1
+  - className: Marten
+    classId: 3
+    prefabs:
+    - {fileID: 4814140183114437194, guid: 9f54ce6300cff404b874f13864bc053c, type: 3}
+    modelScale: 1
+  - className: Squirrel
+    classId: 4
+    prefabs:
+    - {fileID: 4814140183114437194, guid: fcc4aa39c915cc44ab4ba765649b8f2f, type: 3}
+    - {fileID: -7096806528661939046, guid: 3e2b5915687f24843b9fca956ac515a0, type: 3}
+    modelScale: 1
+  - className: Warbler
+    classId: 5
+    prefabs:
+    - {fileID: -7096806528661939046, guid: 5e538b8891d57ea4595c2c8becf1f1a2, type: 3}
+    modelScale: 1
+  - className: Woodpecker
+    classId: 6
+    prefabs:
+    - {fileID: -7096806528661939046, guid: 544cffbda666026428d0929f5ffe2548, type: 3}
+    modelScale: 1
+  - className: AbandonedCar
+    classId: 7
+    prefabs:
+    - {fileID: -7096806528661939046, guid: 15d798ca20a489847856964d132ea015, type: 3}
+    - {fileID: -7096806528661939046, guid: 7f5c715c48082614e926ffbe1bb5e9d1, type: 3}
+    modelScale: 1
+  - className: Bicycle
+    classId: 8
+    prefabs:
+    - {fileID: -7096806528661939046, guid: 6f93c3c6f56071143be6015ee57c4f96, type: 3}
+    modelScale: 1
+  - className: CalicoCat
+    classId: 9
+    prefabs:
+    - {fileID: 4814140183114437194, guid: 06439aa0370ac01468007eaf995af47d, type: 3}
+    modelScale: 1
+  - className: Coyote
+    classId: 10
+    prefabs:
+    - {fileID: -7096806528661939046, guid: 1e993b4dfc2628647b7f502edfe7d85f, type: 3}
+    modelScale: 1
+  - className: Crow
+    classId: 11
+    prefabs:
+    - {fileID: -7096806528661939046, guid: 67328a4b076438e40b5006bb385493dc, type: 3}
+    modelScale: 1
+  - className: FeralDog
+    classId: 12
+    prefabs:
+    - {fileID: -7096806528661939046, guid: f55562b8341ca8145af49dfd1568bab8, type: 3}
+    modelScale: 1
+  - className: Pigeon
+    classId: 13
+    prefabs:
+    - {fileID: -7096806528661939046, guid: 752b893f3a3a46d45b130a338ae01153, type: 3}
+    modelScale: 1
+  - className: Rat
+    classId: 14
+    prefabs:
+    - {fileID: 4814140183114437194, guid: 87c319cdc22639541aa568c7a7604fde, type: 3}
+    modelScale: 1
+  - className: Skeleton
+    classId: 15
+    prefabs:
+    - {fileID: -7096806528661939046, guid: 7a071305468e2a44bbe4be08b0ef04ba, type: 3}
+    modelScale: 1
+  - className: Agave
+    classId: 16
+    prefabs:
+    - {fileID: 4814140183114437194, guid: 50a1f0fff3510de448a59b1a7a67c2e5, type: 3}
+    modelScale: 1
+  - className: DesertBighornSheep
+    classId: 17
+    prefabs:
+    - {fileID: -7096806528661939046, guid: 25537334a7773f04c856224b4f75c4bf, type: 3}
+    modelScale: 1
+  - className: Tortoise
+    classId: 18
+    prefabs:
+    - {fileID: 4814140183114437194, guid: 65ea6da374bfb384c8ce314e5847c555, type: 3}
+    modelScale: 1
+  - className: DesertWillow
+    classId: 19
+    prefabs:
+    - {fileID: -7096806528661939046, guid: 015c5d598d3517b4d9d1fc7312d75fb8, type: 3}
+    modelScale: 1
+  - className: DorcasGazelle
+    classId: 20
+    prefabs:
+    - {fileID: -7096806528661939046, guid: ea295a08b005cf9439c877f9bb09752d, type: 3}
+    modelScale: 1
+  - className: Pelican
+    classId: 21
+    prefabs:
+    - {fileID: 4814140183114437194, guid: 7e29f314b77fa144594bd64281e5d8e5, type: 3}
+    - {fileID: 4814140183114437194, guid: 6b9c8996739ece14bbd5dd55c1afb485, type: 3}
+    modelScale: 1
+  - className: RattleSnake
+    classId: 22
+    prefabs:
+    - {fileID: 4814140183114437194, guid: 4287209c633acd74c90613372cdb01fc, type: 3}
+    modelScale: 1
+  - className: SeaBird
+    classId: 23
+    prefabs:
+    - {fileID: 4814140183114437194, guid: 3ea0aba27ea13c4468707e74abf6bba4, type: 3}
+    modelScale: 1
+  - className: AlpineMarmot
+    classId: 24
+    prefabs:
+    - {fileID: 4814140183114437194, guid: b491afb8dd68ae5479a840d836cf41dd, type: 3}
+    modelScale: 1
+  - className: Elk
+    classId: 25
+    prefabs:
+    - {fileID: -7096806528661939046, guid: 5d67b9a15cab8a848b7556d6be4e2c2d, type: 3}
+    modelScale: 1
+  - className: GoldenEagle
+    classId: 26
+    prefabs:
+    - {fileID: -7096806528661939046, guid: 3db3f03dff18cfa4eacda7372cc6463f, type: 3}
+    modelScale: 1
+  - className: GrizzlyBear
+    classId: 27
+    prefabs:
+    - {fileID: -7096806528661939046, guid: 20701bc16ae516a48a10af41f7098a7e, type: 3}
+    modelScale: 1
+  - className: Heather
+    classId: 28
+    prefabs:
+    - {fileID: 4814140183114437194, guid: 1996502356811734ea736619c17f16ea, type: 3}
+    modelScale: 1
+  - className: LionMountain
+    classId: 29
+    prefabs:
+    - {fileID: -7096806528661939046, guid: 00ed21f8969daa147b4c6b40deafcff2, type: 3}
+    modelScale: 1
+  - className: Bison
+    classId: 30
+    prefabs:
+    - {fileID: -7096806528661939046, guid: fdd872c1426c98642b1f6dd7eb587b3c, type: 3}
+    - {fileID: -7096806528661939046, guid: d4552f0acecf81e47829349750b5fe98, type: 3}
+    modelScale: 1
+  - className: Black-footedFerret
+    classId: 31
+    prefabs:
+    - {fileID: 4814140183114437194, guid: 3169a0d28adac0b4cb80bbbe9f05b76f, type: 3}
+    modelScale: 1
+  - className: Hyena
+    classId: 32
+    prefabs:
+    - {fileID: -7096806528661939046, guid: f6a3c7a8389c27c40981aa720b606c00, type: 3}
+    modelScale: 1
+  - className: Lion
+    classId: 33
+    prefabs:
+    - {fileID: -7096806528661939046, guid: 9b7f16a6c982a6249943e361adf35a6a, type: 3}
+    modelScale: 1
+  - className: TurtleOrnateBox
+    classId: 34
+    prefabs:
+    - {fileID: 4814140183114437194, guid: bf8f1abf0c0348c4db872bfacc920159, type: 3}
+    modelScale: 1
+  - className: Pipit
+    classId: 35
+    prefabs:
+    - {fileID: 4814140183114437194, guid: 8410fe76522a75e428534fee84d20b1f, type: 3}
+    modelScale: 1
+  - className: Elephant
+    classId: 36
+    prefabs:
+    - {fileID: -7096806528661939046, guid: 17a830a8ae8b784499cfc73edb704dac, type: 3}
+    modelScale: 1
+  - className: Quail
+    classId: 37
+    prefabs:
+    - {fileID: 4814140183114437194, guid: 4f43a7d9f95f067498f447acd5a95c97, type: 3}
+    modelScale: 1
+  - className: Zebra
+    classId: 38
+    prefabs:
+    - {fileID: -7096806528661939046, guid: 95fc0a19df9733143a4c31b8ef165895, type: 3}
+    modelScale: 1
+  - className: BigSnake
+    classId: 39
+    prefabs:
+    - {fileID: -7096806528661939046, guid: 384356a410be43a4abc3470170e4f3ae, type: 3}
+    - {fileID: -7096806528661939046, guid: aeb5a2e8a0fa91c47a12cc5777a84851, type: 3}
+    modelScale: 1
+  - className: CacaoTree
+    classId: 40
+    prefabs:
+    - {fileID: -7096806528661939046, guid: afbdb32e39eb00542a1151544facd4e9, type: 3}
+    modelScale: 1
+  - className: Capybara
+    classId: 41
+    prefabs:
+    - {fileID: 4814140183114437194, guid: 3433cb19344b36d45856241c73d40680, type: 3}
+    modelScale: 1
+  - className: Gorilla
+    classId: 42
+    prefabs:
+    - {fileID: -7096806528661939046, guid: a6e527f764f058d4fa0f9508ef5c3fbc, type: 3}
+    modelScale: 1
+  - className: GreenAnaconda
+    classId: 43
+    prefabs:
+    - {fileID: -7096806528661939046, guid: 8c3b3eb3de0daa5419f0037a5b02c115, type: 3}
+    modelScale: 1
+  - className: GreenLguana
+    classId: 44
+    prefabs:
+    - {fileID: 4814140183114437194, guid: 32d2676bd3df0d548a436e9b05e28788, type: 3}
+    modelScale: 1
+  - className: Leopard
+    classId: 45
+    prefabs:
+    - {fileID: -7096806528661939046, guid: 9ed13d0df417c26499340bccf8186d85, type: 3}
+    modelScale: 1
+  - className: Okapi
+    classId: 46
+    prefabs:
+    - {fileID: -7096806528661939046, guid: 910b6e2b6e9a5304d9085c619ce8f27a, type: 3}
+    modelScale: 1
+  - className: Pangolin
+    classId: 47
+    prefabs:
+    - {fileID: 4814140183114437194, guid: 9b4d5b1bcfa032145b9ec0abdb0dd0ef, type: 3}
+    modelScale: 1
+  - className: PygmyChimpanzee
+    classId: 48
+    prefabs:
+    - {fileID: 4814140183114437194, guid: a6a517a1dc1c3064d8a9e23e0d530408, type: 3}
+    modelScale: 1
+  - className: Sloth
+    classId: 49
+    prefabs:
+    - {fileID: -7096806528661939046, guid: 8947d914d7e876f428d3ad1ae4cb7d46, type: 3}
+    modelScale: 1
+  - className: AloeVeraPlant
+    classId: 50
+    prefabs:
+    - {fileID: 4814140183114437194, guid: 4bdc8ecd67e635146acdec7d8c21c451, type: 3}
+    modelScale: 1
+  - className: DesertScorpion
+    classId: 51
+    prefabs:
+    - {fileID: -7096806528661939046, guid: 417b7d6aac2f0ef4b8789cec8eb10870, type: 3}
+    modelScale: 1
+  - className: DromedaryCamel
+    classId: 52
+    prefabs:
+    - {fileID: -7096806528661939046, guid: 5e9baabd0f219594080fb62451f2ef01, type: 3}
+    modelScale: 1
+  - className: FennecFox
+    classId: 53
+    prefabs:
+    - {fileID: 4814140183114437194, guid: b38cbed6cf75f694c98fb3f2cb2e2194, type: 3}
+    modelScale: 1
+  - className: Gecko
+    classId: 54
+    prefabs:
+    - {fileID: 4814140183114437194, guid: a1f08183e2948244798830d42045c0f1, type: 3}
+    modelScale: 1
+  - className: HornedLizard
+    classId: 55
+    prefabs:
+    - {fileID: 4814140183114437194, guid: a7a98e7453acb0d4d872ba847242cffd, type: 3}
+    modelScale: 1
+  - className: Jarboa
+    classId: 56
+    prefabs:
+    - {fileID: 4814140183114437194, guid: a5888b1003351c34389ea8bbe4a0ecc9, type: 3}
+    modelScale: 1
+  - className: SalviaPlant
+    classId: 57
+    prefabs:
+    - {fileID: 4814140183114437194, guid: f95a004e4a231294ea12d9b2db9568ac, type: 3}
+    modelScale: 1
+  - className: AmericanBlackBear
+    classId: 58
+    prefabs:
+    - {fileID: -7096806528661939046, guid: a9ccfd90ef267e845b35ba9554401560, type: 3}
+    modelScale: 1
+  - className: Hickory
+    classId: 59
+    prefabs:
+    - {fileID: -7096806528661939046, guid: 7ae7596174870c14499001212ca9c4a4, type: 3}
+    modelScale: 1
+  - className: Maple
+    classId: 60
+    prefabs:
+    - {fileID: -7096806528661939046, guid: a01b68e1824a456429d29839b3d6bb84, type: 3}
+    modelScale: 1
+  - className: Raccoon
+    classId: 61
+    prefabs:
+    - {fileID: 4814140183114437194, guid: 64b88c4c874aaf24d90326abbdf030a0, type: 3}
+    modelScale: 1
+  - className: RedFox
+    classId: 62
+    prefabs:
+    - {fileID: -7096806528661939046, guid: acd18f1aa32aaee43bb60335fd30af42, type: 3}
+    modelScale: 1
+  - className: White-tailedDear
+    classId: 63
+    prefabs:
+    - {fileID: -7096806528661939046, guid: 16d2ace584b31434cba975cf866ed74e, type: 3}
+    modelScale: 1
+  - className: WoodFrog
+    classId: 64
+    prefabs:
+    - {fileID: -7096806528661939046, guid: b64ac99c97d79ab4e880f7cc011dfce6, type: 3}
+    modelScale: 1
+  - className: Cypress
+    classId: 65
+    prefabs:
+    - {fileID: 6060788920606015911, guid: c75a6f3356a7934428eec06b02bf9e21, type: 3}
+    modelScale: 1
+  - className: Cactus
+    classId: 66
+    prefabs:
+    - {fileID: 419391740178093878, guid: 4a8207c43225b2640a05746c96fbfdce, type: 3}
+    - {fileID: -8372516768554573292, guid: 224960f35c139084b837f7e7ae0fc714, type: 3}
+    - {fileID: -8918021280095290727, guid: f6e37a590ec9bee44b140cfd9f0d5901, type: 3}
+    - {fileID: 2225725238677710361, guid: f636fbf198706b944a61ca26afede6d2, type: 3}
+    - {fileID: -2985499586943535944, guid: 730c5482a64a42749a6e9cea5cebcfdc, type: 3}
+    - {fileID: -7096806528661939046, guid: 04a3839a96d6eb044a5e9a840f6ce802, type: 3}
+    modelScale: 1
+  - className: PricklyPearCactus
+    classId: 67
+    prefabs:
+    - {fileID: 878380466768665094, guid: f6e676a5c08887a40a2ce9511e9f68ec, type: 3}
+    - {fileID: 3355057614450951232, guid: b402f44af5e4c45438a9c21eaf7f612c, type: 3}
+    modelScale: 1
+  - className: FlowerGazania
+    classId: 68
+    prefabs:
+    - {fileID: 2483451814238923533, guid: 78aa0f8ce15193844810a3f9254b350d, type: 3}
+    - {fileID: -4061190273767166453, guid: e519511998f60a341ae68e0c045da150, type: 3}
+    - {fileID: 3204616867665427280, guid: 7fb01b9ac126c5d4e8bb8661f7db306a, type: 3}
+    - {fileID: 811095584132137584, guid: dd9b688dcdf0ac4468a6c4b666923f63, type: 3}
+    - {fileID: 811095584132137584, guid: 95bdb5978c871454eb82c8f0b95fb21d, type: 3}
+    - {fileID: -8267026771250214059, guid: 70236f5030531bc4988760301ddfa28e, type: 3}
+    - {fileID: -4507474691898935506, guid: e449b871f731bde47a0a58d989dca25a, type: 3}
+    - {fileID: -460649581628897280, guid: 4e14291073afd7a419b4a97ca38e2172, type: 3}
+    modelScale: 1
+  - className: FlowerEmpodium
+    classId: 69
+    prefabs:
+    - {fileID: 1503562507477989925, guid: 81c261b7c9cce464c8f2fc6eae39d0e7, type: 3}
+    - {fileID: 3126833636164612302, guid: af256ce88258468458eea22dd300d7ec, type: 3}
+    - {fileID: 2251003321094013553, guid: cfe5debf555362546b8f1e5a062c5dce, type: 3}
+    modelScale: 1
+  - className: Conifer
+    classId: 70
+    prefabs:
+    - {fileID: 4012337630082778474, guid: 06be32730c04b5d4b89b23587c127fde, type: 3}
+    - {fileID: 1743353957770956, guid: 82a6bf9ca38d9d443997ccec084ba669, type: 3}
+    - {fileID: 1214657917099862, guid: 78f6b68ad931a824c920d7b953612370, type: 3}
+    - {fileID: 1364922359172550, guid: 1aaf3ef80841d9c4990a27fee328eb1c, type: 3}
+    - {fileID: 1743353957770956, guid: 4663d5cca4ed98548946e758cd5979e2, type: 3}
+    modelScale: 1
+  - className: PineTree
+    classId: 71
+    prefabs:
+    - {fileID: 2503636403554334455, guid: b2379a67a70c1c04e8a298c2b64dbab5, type: 3}
+    - {fileID: 1127992084609228112, guid: 8d688a4335c8f6843be05644a94316e7, type: 3}
+    - {fileID: 1722164173232303198, guid: 54a0741d23412b140879ca53f675036b, type: 3}
+    - {fileID: 8316334779356437779, guid: d873fef7913c2414a80aa0782350337b, type: 3}
+    modelScale: 1

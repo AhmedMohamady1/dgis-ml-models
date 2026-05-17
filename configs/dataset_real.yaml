@@ -1,0 +1,23 @@
+# DGIS Real-World Dataset Config
+# Used for training the mobile YOLO model
+
+path: ../dataset_real
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 13
+names: 
+  0: Apple
+  1: Banana
+  2: Carrot
+  3: Cat
+  4: Cucumber
+  5: Dog
+  6: Face
+  7: Orange
+  8: Person
+  9: Rose
+  10: Sunflower
+  11: Tomato
+  12: Tulip

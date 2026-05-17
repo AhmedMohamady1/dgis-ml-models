@@ -1,0 +1,38 @@
+# DGIS ML Models — Python Dependencies
+# Recreate the environment with:
+#   python -m venv yolo_env
+#   yolo_env\Scripts\activate     (Windows)
+#   pip install -r requirements.txt
+
+# Core
+ultralytics==8.4.14
+torch==2.5.1+cu121
+torchvision==0.20.1+cu121
+torchaudio==2.5.1+cu121
+
+# ONNX export
+onnx==1.20.1
+onnxruntime-gpu==1.24.2
+onnxslim==0.1.85
+
+# TFLite export
+tensorflow-cpu
+
+# Vision & data
+opencv-python==4.13.0.92
+Pillow==12.0.0
+numpy==2.3.5
+scipy==1.17.0
+matplotlib==3.10.8
+polars==1.38.1
+
+
+
+# Utilities
+PyYAML==6.0.3
+requests==2.32.5
+tqdm
+
+# PyTorch index (needed for CUDA builds)
+# Install with:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
