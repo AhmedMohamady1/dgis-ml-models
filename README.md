@@ -54,10 +54,6 @@ dgis-ml-models/
 git clone https://github.com/your-org/dgis-ml-models
 cd dgis-ml-models
 
-# Install Git LFS (needed to pull dataset images)
-git lfs install
-git lfs pull
-
 # Create and activate virtual environment
 python -m venv yolo_env
 
@@ -110,4 +106,4 @@ Images are tracked via **Git LFS** (see `.gitattributes`). Labels (`.txt` files)
 
 ## Part of DGIS
 
-This repo is a component of the larger DGIS system. See the [main repo](https://github.com/your-org/dgis) for full architecture.
+This repo is a component of the larger DGIS system. See the [main repo](https://github.com/AhmedMohamady1/drone-geographical-information-system) for full architecture.
