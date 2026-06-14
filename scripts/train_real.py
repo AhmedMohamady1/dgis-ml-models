@@ -1,29 +1,32 @@
 from ultralytics import YOLO
 
-
-# Required for Windows multiprocessing
 if __name__ == '__main__':
 
     # ── Train ────────────────────────────────────────────────────────────────
-    model = YOLO('yolov8n.pt')
+    model = YOLO('ul://ultralytics/yolo26/yolo26n')
 
     results = model.train(
-        data='configs/dataset_real.yaml',
+        data='ul://omar-hafez/datasets/venom-v71',
 
         # --- Optimized Training Fundamentals ---
-        epochs=50,
-        patience=10,
+        epochs=100,
+        patience=15,
         imgsz=640,
 
         # --- Hardware Optimizations ---
-        device=0,       # Forces training on your dedicated GPU
-        workers=8,
-        batch=-1,       # Auto-batching to maximize VRAM
-        amp=True        # Automatic Mixed Precision
+        device='7',             # Forces training on your dedicated GPU
+        batch=-1,               # Auto-batching to maximize VRAM
+        amp=True,               # Automatic Mixed Precision
+
+        # --- Project & Custom Configurations ---
+        project='omar-hafez/v71venom',
+        name='v7y26n',
+        angle=1.0,
+        rle=1.0
     )
 
     # ── Evaluate on unseen test split ────────────────────────────────────────
-    best = YOLO('runs/detect/train/weights/best.pt')
+    best = YOLO('omar-hafez/v71venom/v7y26n/weights/best.pt')
 
     print("Starting final evaluation on unseen test data...")
     metrics = best.val(split='test')
@@ -31,11 +34,11 @@ if __name__ == '__main__':
     print(f"Final Test mAP50:    {metrics.box.map50:.3f}")
     print(f"Final Test mAP50-95: {metrics.box.map:.3f}")
 
-    # ── Export to TFLite for Mobile ───────────────────────────────────────────
-    print("\nExporting to TFLite (INT8)...")
+    # ── Export Model ─────────────────────────────────────────────────────────
+    print("\nExporting to TorchScript...")
     success = best.export(
-        format='tflite',
-        int8=True,      # Quantize to INT8 for mobile performance
+        format='torchscript',   
+        simplify=True,          
         imgsz=640
     )
 
