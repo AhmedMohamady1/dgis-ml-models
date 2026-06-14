@@ -105,7 +105,7 @@ Output lands in `Assets/DataGeneration/Scenes/` and is then copied to `dataset_u
 ## Reproducing the Dataset
 
 ### Requirements
-- Windows 10/11 with NVIDIA GPU (8 GB+ VRAM recommended)
+- Windows 10/11 with NVIDIA GPU
 - [Hunyuan3D-1 ComfyUI package](https://github.com/Tencent/Hunyuan3D-1) — download separately, not included in this repo
 - Unity 2022.3 LTS with the `dgis-simulation` project
 
