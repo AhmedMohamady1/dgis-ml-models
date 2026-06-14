@@ -30,14 +30,14 @@ dgis-ml-models/
 │   └── label_studio_annotation/        ← Python scripts to convert YOLO labels for Label Studio
 │
 ├── docs/                       
-│   ├── images/                         ← Loose documentation images
+│   ├── hunyuan3d/                      ← Guides and ComfyUI workflows for generating 3D species assets
 │   └── results/                        ← Final training metrics & curves (mobile/ and sim/)
 │
-├── dataset_unity/                      ← Synthetic dataset (images via Git LFS)
+├── dataset_unity/                      ← Synthetic dataset 
 │   ├── images/{train,val,test}
 │   └── labels/{train,val,test}
 │
-├── dataset_real/                       ← Real-world dataset (images via Git LFS)
+├── dataset_real/                       ← Real-world dataset
 │   ├── images/{train,val,test}
 │   └── labels/{train,val,test}
 │
@@ -82,7 +82,7 @@ python scripts/train_unity.py
 python scripts/train_real.py
 ```
 
-Training outputs dynamically land in `runs/detect/train/`.
+Training outputs dynamically land in `runs/detect/train_unity/` and `runs/detect/train_real/`.
 
 ---
 
@@ -90,7 +90,13 @@ Training outputs dynamically land in `runs/detect/train/`.
 
 The training scripts (`train_unity.py` and `train_real.py`) are configured to automatically export the model to the appropriate format (`.onnx` or `.tflite`) at the end of the training run.
 
-The newly exported weights will be saved in `runs/detect/train/weights/`. You should then copy them to the `models/` directory for consumption by other DGIS components.
+The newly exported weights will be saved in `runs/detect/train_unity/weights/` and `runs/detect/train_real/weights/`. You should then copy them to the `models/` directory for consumption by other DGIS components.
+
+---
+
+## Evaluation Results
+
+You can view the final training metrics, confusion matrices, and result plots for both the simulation model and the mobile model comprehensively in our **[Evaluation Results page](docs/results/README.md)**.
 
 ---
 

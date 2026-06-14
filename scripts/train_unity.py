@@ -19,11 +19,16 @@ if __name__ == '__main__':
         device=0,       # Forces training on your dedicated GPU
         workers=8,
         batch=-1,       # Auto-batching to maximize VRAM
-        amp=True        # Automatic Mixed Precision
+        amp=True,       # Automatic Mixed Precision
+
+        # --- Project & Custom Configurations ---
+        project='runs/detect',
+        name='train_unity',
+        exist_ok=True   # Overwrite the same folder every time
     )
 
     # ── Evaluate on unseen test split ────────────────────────────────────────
-    best = YOLO('runs/detect/train/weights/best.pt')
+    best = YOLO('runs/detect/train_unity/weights/best.pt')
 
     print("Starting final evaluation on unseen test data...")
     metrics = best.val(split='test')

@@ -14,19 +14,20 @@ if __name__ == '__main__':
         imgsz=640,
 
         # --- Hardware Optimizations ---
-        device='7',             # Forces training on your dedicated GPU
+        device=0,               # Forces training on your dedicated GPU (changed to 0 for generic users)
         batch=-1,               # Auto-batching to maximize VRAM
         amp=True,               # Automatic Mixed Precision
 
         # --- Project & Custom Configurations ---
-        project='omar-hafez/v71venom',
-        name='v7y26n',
+        project='runs/detect',
+        name='train_real',
+        exist_ok=True,          # Overwrite the same folder every time
         angle=1.0,
         rle=1.0
     )
 
     # ── Evaluate on unseen test split ────────────────────────────────────────
-    best = YOLO('omar-hafez/v71venom/v7y26n/weights/best.pt')
+    best = YOLO('runs/detect/train_real/weights/best.pt')
 
     print("Starting final evaluation on unseen test data...")
     metrics = best.val(split='test')

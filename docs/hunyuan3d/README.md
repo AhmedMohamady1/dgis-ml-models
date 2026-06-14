@@ -44,10 +44,22 @@ Reference images of species
 - `comfyui-kjnodes`
 - `comfyui-logicutils`
 
+### ComfyUI Workflows
+
+We use two primary workflows for generating the assets, which you can load directly into ComfyUI from the `workflows/` directory.
+
+#### 1. Full Pipeline Workflow
+![Full Workflow](assets/full_workflow_image.png)
+*(Found in `workflows/Full Workflow.json`)*
+
+#### 2. Mesh Texturing Workflow
+![Mesh Texturing](assets/mesh_texturing_image.png)
+*(Found in `workflows/Mesh_Texturing.json`)*
+
 ### Process
 
 1. Launch ComfyUI using the portable Windows package
-2. Load the workflow from `docs/hunyuan3d/workflows/`
+2. Load the relevant workflow from `docs/hunyuan3d/workflows/`
 3. For each species, provide a clean reference image (front-facing, white/neutral background works best)
 4. Run the workflow — Hunyuan3D generates a `.glb` file with mesh and baked texture
 5. Save output to the relevant biome folder under `Species/`
