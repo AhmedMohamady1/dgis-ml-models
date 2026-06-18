@@ -8,6 +8,17 @@ Two models are trained and maintained here:
 
 ---
 
+## Showcase
+
+### Unity Simulation Detection (Sim Model)
+![Simulation YOLO Detections](docs/images/1.%20Multiple%20Simulation%20YOLO%20detections.png)
+
+### Real-World Detection (Mobile Model)
+![Real-Life YOLO Detections](docs/images/2.%20Multiple%20Real-Life%20YOLO%20detections.jpg)
+*(Our team and supervisor recognized by the live mobile model)*
+
+---
+
 ## Repo Structure
 
 ```text
