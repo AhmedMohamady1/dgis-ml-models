@@ -62,7 +62,7 @@ dgis-ml-models/
 ## Setup
 
 ```bash
-git clone https://github.com/your-org/dgis-ml-models
+git clone https://github.com/AhmedMohamady1/dgis-ml-models
 cd dgis-ml-models
 
 # Create and activate virtual environment
